@@ -1,0 +1,36 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/logindemo?enabledTLSProtocols=TLSv1.2
+    username: root
+    password: ciao
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    initialize: true
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  mail:
+    from: @tiscali.it
+    host: smtp.tiscali.it
+    port: 465
+    protocol: smtp
+    username:
+    password:
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          ssl:
+            enable: true
+mail:
+  smtp:
+    starttls:
+      enable: false
+debug: true
+
+app:
+  jtwSecret: KTlgvPcXbnLoYl6b5Ma1oG294dGoZ+fyxBqJiBjQjVo
+  jwtExpirationMs: 86420135
