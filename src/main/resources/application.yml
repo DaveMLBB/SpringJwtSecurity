@@ -10,12 +10,12 @@ spring:
     hibernate:
       ddl-auto: update
   mail:
-    from: @tiscali.it
+    from: devtestdevtest828117@tiscali.it
     host: smtp.tiscali.it
     port: 465
     protocol: smtp
-    username:
-    password:
+    username: devtestdevtest828117@tiscali.it
+    password: _DkW3bwVqWVh3vG
     properties:
       mail:
         smtp:
